@@ -22,7 +22,7 @@ Snap (SNAP)
 Datadog (DDOG)
 
 ### DataTransformation & DataCollector
-I created a Lambda function with the code called [data_transformer.py](https://github.com/tdlilei/Project03/blob/main/data_transformer.py) to gather data.The code is using [yfinance module](https://pypi.org/project/yfinance/) for collecting one full day's worth stock HIGH and LOW prices for each company listed above on November30th 2021, at a five minutes interval, then transforming the data into a JSON format.The stremed reocord placed into the kinesis firehose and eventually put into S3 bucket.
+I created a Lambda function with the code called [data_transformer.py](https://github.com/tdlilei/Project03/blob/main/data_transformer.py) to gather data.The code is using [yfinance module](https://pypi.org/project/yfinance/) for collecting one full day's worth stock HIGH and LOW prices for each company listed above on November30th 2021, at a five minutes interval, then transforming the data into a JSON format.The streamed reocord placed into the kinesis firehose and eventually put into S3 bucket.
 
 
 ### DataAnalyzer
