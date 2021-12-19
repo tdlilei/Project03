@@ -39,4 +39,4 @@ Kinesis Data Firehose Delivery Stream Monitoring
 ![notebook](assets/kinesis_config.png)
 
 ### Note
-When upload the [data_transformer.py](https://github.com/tdlilei/Project03/blob/main/data_transformer.py) to the lambda function, remember to revise the Runtime Settiings Handler information to data_transformer.lambda_handler. Or change the file name to lambda_function.
+When upload the [data_transformer.py](https://github.com/tdlilei/Project03/blob/main/data_transformer.py) to the lambda function, remember to revise the Runtime Settings Handler information to data_transformer.lambda_handler. Or change the file name to lambda_function.
