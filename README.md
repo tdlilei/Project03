@@ -29,7 +29,7 @@ I created a Lambda function with the code called data_transformer to gather data
 I have congigured AWS Glue Crawler pointed it to the S3 bucket connected to the kinesis firehose,which I generated the data from lambda function, the Glue Crawer determines the classifier for the teicker dataset, and then generates metadata tables defining data schema in the Glue Data Catalog.Then I used AWS Athena interactively query underlying dataset to generate a csv file that contains the highest hourly stock 'high' per company listed above.
 
 
-### Analysis
+### [Analysis](https://github.com/tdlilei/Project03/blob/main/Analysis.ipynb)
 Two visualizatios of the AWS Athena query output by Jupyter notebook.
 
 
