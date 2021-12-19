@@ -36,4 +36,7 @@ Two visualizatios of the AWS Athena query output by Jupyter notebook.
 ### Infrastructure
 Kinesis Data Firehose Delivery Stream Monitoring 
 
-![notebook](assets/kinesis_config.png)
+![notebook](assets/kinesis_config.png)0
+
+### Note
+When upload the [data_transformer.py](https://github.com/tdlilei/Project03/blob/main/data_transformer.py) to the lambda function, remember to revise the Runtime Settiings Handler information to data_transformer.lambda_handler. Or change the file name to lambda_function.
