@@ -30,7 +30,7 @@ I have congigured AWS Glue Crawler pointed it to the S3 bucket connected to the 
 
 
 ### [Analysis](https://github.com/tdlilei/Project03/blob/main/Analysis.ipynb)
-Two visualizatios of the AWS Athena query output by Jupyter notebook.
+Two visualizations of the AWS Athena query output by Jupyter notebook.
 
 
 ### Infrastructure
